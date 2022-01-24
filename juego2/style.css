@@ -1,0 +1,98 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: verdana;
+}
+
+body {
+	text-align: center;
+	color: #262626;
+	background-color: #000;
+}
+
+
+h1 {
+	padding: 55px;
+	font-family:'verdana';
+	font-size: 50px;
+	color: #fff;
+}
+
+.contenedor {
+	background: #ced4da;
+	max-width: 700px;
+	margin: auto;
+	border: 2px solid #adb5bd;
+	border-radius: 20px;
+	display: flex;
+	padding: 50px 0px;
+}
+
+.izquierda {
+	width: 70%;
+	font-size: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+.derecha {
+	width: 30%;
+}
+
+#msje {
+	font-size: 45px;
+	height: 50px;
+}
+
+.opcion {
+	width: 80px;
+	height: 80px;
+	border: 2px solid #000;
+	font-size: 45px;
+	margin-bottom: 20px;
+	border-radius: 50%;
+	cursor: pointer;
+	background-color: #000 ;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.opcion:hover {
+	background-color: #252525;
+}
+
+
+footer {
+	color: #dddd;
+	background: linear-gradient(#312244,#4d194d);
+	padding: 20px;
+	margin-top: 50px;
+}
+
+.nombre {
+	font-size: 40px;
+	padding: -20px;
+}
+
+
+footer a {
+	color: #ddd;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 30px;
+}
+
+footer a:hover {
+	color: #6c757d;
+}
+
+h3 {
+	padding-bottom: 40px;
+	font-size: 30px;
+}
